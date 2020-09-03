@@ -1,9 +1,0 @@
-#!/bin/sh
-
-# Convenience script for running SWIG before it is installed.
-# Intended for ad-hoc usage and not by the test-suite or examples.
-
-builddir=`dirname "$0"`
-SWIG_LIB='/home/osboxes/Desktop/snowboy/a/swig-3.0.10/Lib'
-export SWIG_LIB
-exec "$builddir/swig" "$@"
