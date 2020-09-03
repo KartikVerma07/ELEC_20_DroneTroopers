@@ -1,13 +1,13 @@
 # ELEC_20_DroneTroopers
-Tello_AirPro : A drone which will follow you where ever you go and keep you in center of the frame. 
+### Tello_AirPro : A drone which will follow you where ever you go and keep you in center of the frame. 
 
-Commands that Drone can operate on using Speech Recognition:
-  -You can control the drone movement by your speech commands. 
-     -Such as takeoff, land, up, down, left and right. 
+### Commands that Drone can operate on using Speech Recognition:
+  - You can control the drone movement by your speech commands. 
+  - Such as takeoff, land, up, down, left and right. 
 
 The DJI Tello drone Tello is a tiny and lightweight quadcopter created Ryze Robotics in collaboration with DJI and Intel Corporation. The quadcopter comes with some great features and electronics, including, among others, a 720p camera a vision system, barometer and range finder. What’s more, it’s programmable with the Scratch programming language and you can also create software applications. The drone comes with several accessories including a Quick Start Guide, four extra propellers, a propeller remover tool, and the battery, which is a 3.8V, two-cell battery, running at 1100mAh.
 
-INTERACTING WITH THE DRONE
+### INTERACTING WITH THE DRONE
 using App of Tello.
 using Keyboard(using Pygame Library)
 using speech recognition (using Snowboy Hotword)
@@ -27,12 +27,12 @@ Bounding Box:
 We return bounding boxes coordinates for items that are detected in images. For example, the Detect Faces operation returns a bounding box for each face detected in an image. We use the bounding box coordinates to display a box around detected image For example, the following image shows a bounding box surrounding a face.
 
 
-SPEECH RECOGNITION USING SNOWBOY:
+### SPEECH RECOGNITION USING SNOWBOY:
 Snowboy is an embedded and real-time, always-listening but off-line, and highly customizable hotword detection engine that runs on Raspberry Pi, (Ubuntu) Linux, and Mac OS X. 
 A hot word is a key word or phrase that a computer always listens for to trigger other actions. A hotword is also called a wake word or trigger word.
 
 
-Steps to Run Code:
+### **Steps to Run Code:**
 1. You will need to run the FaceDetector.py first.
 2. Then connect tello to your Laptop and run AirPro.py.
 3. If you want tello to follow you, you can leave it here and comment out any speech recognition code    that might be causing crash of the program in the AirPro.py(most probably it will be commenting      the code which reads csv files ) but if you want the audio commands recognition to work then          install snowboy hotword first and but the files in the SpeechRecognition into it.
